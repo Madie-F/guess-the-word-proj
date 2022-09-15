@@ -34,7 +34,9 @@ const spanGuessRem = document.querySelector(".guess-form"){
 
 //7 The empty paragraph where messages will appear when the player guesses a letter.
 
-//?
+const messageReply = document.querySelector(".message"){
+    
+}
 
 //8 The hidden button that will appear prompting the player to play again.
 
