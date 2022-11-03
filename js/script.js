@@ -1,45 +1,49 @@
-//1 The unordered list where the player’s guessed letters will appear.
+//2a The unordered list where the player’s guessed letters will appear.
 
-const guessedLetter = document.querySelector("ul") {
+const guessedLettersElement = document.querySelector(".guessed-letters");
 
-};
+//2b The button with the text “Guess!” in it.
 
-//2 The button with the text “Guess!” in it.
-
-const buttonGuess = document.addEventListener("click", function () {
+const button = document.querySelector("button");
+button.addEventListener("click", function () {
 
 });
 
-//3 The text input where the player will guess a letter.
 
-const input = prompt("Type one letter:");
+//2c The text input where the player will guess a letter.
 
-//4 The empty paragraph where the word in progress will appear.
+const inputBox = document.querySelector(".letter");
 
-const buildWord = document.querySelector(".word-in-progress") {
 
-}
+//2d The empty paragraph where the word in progress will appear.
 
-//5 The paragraph where the remaining guesses will display.
+const buildWord = document.querySelector(".word-in-progress");
 
-const numGuessRem = document.querySelector(".remaining"){
 
-}
+//2e The paragraph where the remaining guesses will display.
 
-//6 The span inside the paragraph where the remaining guesses will display.
+const pgGuessRem = document.querySelector(".remaining");
 
-const spanGuessRem = document.querySelector(".guess-form"){
 
-}
+//2f The span inside the paragraph where the remaining guesses will display.
 
-//7 The empty paragraph where messages will appear when the player guesses a letter.
+const spanGuessRem = document.querySelector(".remaining span");
 
-const messageReply = document.querySelector(".message"){
-    
-}
 
-//8 The hidden button that will appear prompting the player to play again.
+//2g The empty paragraph where messages will appear when the player guesses a letter.
 
-const buttonHide = document.addEventListener("click", function () {
+const guessReply = document.querySelector(".message");
 
-}
+
+
+//2h The hidden button that will appear prompting the player to play again.
+
+const hiddenButton = document.querySelector(".play-again hide")
+hiddenButton.addEventListener("click", function () {
+
+});
+
+//3 Create another global variable called word and give it the value of "magnolia".
+//Magnolia is the starting word to test out the game until you fetch words from a hosted file in a later setup.
+
+const word = `magnolia`;
