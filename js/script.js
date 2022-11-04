@@ -18,6 +18,7 @@ const inputBox = document.querySelector(".letter");
 //2d The empty paragraph where the word in progress will appear.
 
 const buildWord = document.querySelector(".word-in-progress");
+buildWord.innerText.h
 
 
 //2e The paragraph where the remaining guesses will display.
@@ -47,3 +48,8 @@ hiddenButton.addEventListener("click", function () {
 //Magnolia is the starting word to test out the game until you fetch words from a hosted file in a later setup.
 
 const word = `magnolia`;
+
+
+
+//Note on where i  left off: i emailed Ann asking her to look over my global values code so far. 
+//She hasn't responded yet. I havent gotten any further than magnolia. 
