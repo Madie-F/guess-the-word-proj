@@ -57,6 +57,7 @@ const makeGuess = function (guess) {
       guessedLetters.push(guess);
       console.log(guessedLetters);
       showGuessedLetters();
+      updateWordInProgress(guessedLetters);
     }
 
 };
@@ -81,6 +82,8 @@ const updateWordInProgress = function (guessedLetters) {
       revealWord.push("●");
     }
   }
+  //console.log(revealWord)
+  wordInProgress.innerText = revealWord.join("");
+
 }
-console.log(revealWord)
 
