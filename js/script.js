@@ -72,7 +72,7 @@ const showGuessedLetters = function () {
 }
 
 const updateWordInProgress = function (guessedLetters) {
-  const wordUpper = word.toUpperCase;
+  const wordUpper = word.toUpperCase();
   const wordArray = wordUpper.split("");
   const revealWord = [];
   for (const letter of wordArray) {
