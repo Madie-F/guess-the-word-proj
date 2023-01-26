@@ -10,6 +10,7 @@ const playAgainButton = document.querySelector(".play-again")
 
 const word = "magnolia";
 const guessedLetters = [];
+let remainingGuesses = 8;
 
 
 const placeholder = function (word) {
