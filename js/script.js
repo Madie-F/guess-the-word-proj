@@ -124,14 +124,14 @@ const checkIfWin = function () {
   }
 };
 
-const start0ver = function () {
+const startOver = function () {
   guessLetterButton.classList.add("hide");
   remainingGuessesElement.classList.add("hide");
   guessedLettersElement.classList.add("hide");
   playAgainButton.classList.remove("hide");
 };
 
-playAgainButton.addEventlistener("click", function() {
+playAgainButton.addEventlistener("click", function () {
   message.classList.remove("win");
   guessedLetters = [];
   remainingGuesses = 8;
@@ -141,10 +141,8 @@ playAgainButton.addEventlistener("click", function() {
 
   getWord();
 
-  const start0ver = function () {
-    guessLetterButton.classList.remove("hide");
-    remainingGuessesElement.classList.remove("hide");
-    guessedLettersElement.classList.remove("hide");
-    playAgainButton.classList.add("hide");
-  };
+  guessLetterButton.classList.remove("hide");
+  playAgainButton.classList.add("hide");
+  remainingGuessesElement.classList.remove("hide");
+  guessedLettersElement.classList.remove("hide");
 });
